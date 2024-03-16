@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: darkcyan;
+    color: white;
+    display: block;
+    text-align:center ;
+    padding: 10px;
+    
+}
+
+.intr{
+    background-color: aliceblue;
+    padding: 40px;
+    padding-left: 80px;
+    margin-top: 5px;
+    
+    p{
+       
+       
+        line-height: 30px;
+    }
+
+    h4{
+        color: orangered;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+.skls{
+    background-color: black;
+    color: white;
+    padding: 30px;
+
+    h5{
+        color: gold;
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-left: 70px;
+         }
+
+         ol{
+            font-size: 18px;
+
+            li{
+                border-style: solid;
+                background-color: whitesmoke;
+                color: black;
+                padding: 15px;
+                list-style-position: inside;
+                margin-bottom: 10px;
+                               
+            }
+            
+         }
+
+         li:hover{
+            background-color: black;
+            color: white;
+            
+            border-color: gold;
+         }
+
+}
+
+
+.cts{
+    background-color: darkcyan;
+    width: 30%;
+    margin-top: 20px;
+    padding: 30px;
+
+
+    h4{
+        background-color: gold;
+        color: white;
+        border-radius: 5px;
+        border-style: none;
+        display: inline;
+        padding: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    h5{
+        margin-top: 20px;
+        color: gold;
+        text-decoration: underline;
+    }
+
+    
+
+    
+}
+
+.bttns{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .skls {
+        padding: 20px;
+    }
+
+    .skls h5 {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    .cts {
+        width: 100%;
+    }
+}
+
